@@ -20,9 +20,13 @@ from rest_framework.test import force_authenticate
 from django.contrib.auth.models import User
 
 
+
+
 class AdminTests(LiveServerTestCase):
+
+    
     def setUp(self):
-        chrome_options = webdriver.ChromeOptions()
+        chrome_options  =   webdriver.ChromeOptions()
         chrome_options.add_argument("--ignore-certificate-errors")
         chrome_options.add_argument("--headless")
         chrome_options.add_argument("--disable-gpu")
