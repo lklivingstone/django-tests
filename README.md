@@ -180,19 +180,32 @@ The xargs command is used to pass the file names as arguments to the Black comma
 If there are no git commit before the current commit, it runs Black (black --check) on the entire codebase (all files).
 
 
-### Tests upon PR:
-## PR to Main branch
+## Tests upon PR:
+### PR to Main branch
 
-6 Branches with complete Black check 
-
-
-![Screenshot (175)](https://github.com/lklivingstone/algobulls-assignment/assets/74340009/a64a3140-87bc-4a57-9364-cc704bb9cf74)
+#### 6 Tests
 
 
-## PR to other branches
-
-5 Branches with Black check to Delta Changes 
+![Screenshot (196)](https://github.com/lklivingstone/django-tests/assets/74340009/85367752-e77c-4a6a-b837-8746a50b46da)
 
 
-![Screenshot (174)](https://github.com/lklivingstone/algobulls-assignment/assets/74340009/4cc47666-ba52-4128-9b89-7820024483a7)
+
+### PR to other branches
+
+
+#### 5 Tests
+
+##### Success
+
+![Screenshot (198)](https://github.com/lklivingstone/django-tests/assets/74340009/5c855102-4df2-4458-aa57-bf5ed41851eb)
+
+##### Failure
+
+![Screenshot (199)](https://github.com/lklivingstone/django-tests/assets/74340009/2970c5da-6cb7-4bf8-89a1-814f8e5a9aac)
+
+
+
+### Artifacts for Downloading Coverage Report
+
+![Screenshot (197)](https://github.com/lklivingstone/django-tests/assets/74340009/f843c48d-61a4-4859-8e64-36c77c3116e5)
 
